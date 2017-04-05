@@ -9,6 +9,7 @@ boxes[4].style.backgroundColor = "default";
 
 // Variable to hold the current left margin.
 var leftMargin = 0;
+var topMargin = 0;
 
 // Variable used to add to the left margin.
 var moveAmount = 5;
@@ -44,8 +45,8 @@ function box3Clicked() {
 
 function box4Clicked() {
     console.log("Hey, box clicked!");
-    leftMargin += moveAmount;
-    boxes[4].style.marginLeft = leftMargin + "px";
+    topMargin += moveAmount;
+    boxes[4].style.marginTop = topMargin + "px";
 }
 
 // When anyone clicks on the first box, call the function "boxClicked".
