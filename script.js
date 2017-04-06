@@ -28,11 +28,14 @@ function box0Clicked() {
 function box1Clicked() {
     console.log("Hey, box clicked!");
     leftMargin += moveAmount;
+    leftMargin += moveAmount;
     boxes[1].style.marginLeft = leftMargin + "px";
 }
 
 function box2Clicked() {
     console.log("Hey, box clicked!");
+    leftMargin += moveAmount;
+    leftMargin += moveAmount;
     leftMargin += moveAmount;
     boxes[2].style.marginLeft = leftMargin + "px";
 }
@@ -40,11 +43,18 @@ function box2Clicked() {
 function box3Clicked() {
     console.log("Hey, box clicked!");
     leftMargin += moveAmount;
+    leftMargin += moveAmount;
+    leftMargin += moveAmount;
+    leftMargin += moveAmount;
     boxes[3].style.marginLeft = leftMargin + "px";
 }
 
 function box4Clicked() {
     console.log("Hey, box clicked!");
+    topMargin += moveAmount;
+    topMargin += moveAmount;
+    topMargin += moveAmount;
+    topMargin += moveAmount;
     topMargin += moveAmount;
     boxes[4].style.marginTop = topMargin + "px";
 }
