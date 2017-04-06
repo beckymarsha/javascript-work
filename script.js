@@ -3,12 +3,15 @@ var boxes = document.querySelectorAll(".box");
 
 boxes[0].style.backgroundColor = "green";
 boxes[1].style.backgroundColor = "purple";
-boxes[2].style.backgroundColor = "191919";
+boxes[2].style.backgroundColor = "#191919";
 boxes[3].style.backgroundColor = "blanchedAlmond";
 boxes[4].style.backgroundColor = "default";
 
 // Variable to hold the current left margin.
-var leftMargin = 0;
+var leftMargin0 = 0;
+var leftMargin1 = 0;
+var leftMargin2 = 0;
+var leftMargin3 = 0;
 var topMargin = 0;
 
 // Variable used to add to the left margin.
@@ -21,32 +24,32 @@ function box0Clicked() {
     // 'console.log()' only displays in the browser console.
     // It's useful for you, the developer, to debug your code.
     console.log("Hey, box clicked!");
-    leftMargin += moveAmount;
-    boxes[0].style.marginLeft = leftMargin + "px";
+    leftMargin0 += moveAmount;
+    boxes[0].style.marginLeft = leftMargin0 + "px";
 }
 
 function box1Clicked() {
     console.log("Hey, box clicked!");
-    leftMargin += moveAmount;
-    leftMargin += moveAmount;
-    boxes[1].style.marginLeft = leftMargin + "px";
+    leftMargin1 += moveAmount;
+    leftMargin1 += moveAmount;
+    boxes[1].style.marginLeft = leftMargin1 + "px";
 }
 
 function box2Clicked() {
     console.log("Hey, box clicked!");
-    leftMargin += moveAmount;
-    leftMargin += moveAmount;
-    leftMargin += moveAmount;
-    boxes[2].style.marginLeft = leftMargin + "px";
+    leftMargin2 += moveAmount;
+    leftMargin2 += moveAmount;
+    leftMargin2 += moveAmount;
+    boxes[2].style.marginLeft = leftMargin2 + "px";
 }
 
 function box3Clicked() {
     console.log("Hey, box clicked!");
-    leftMargin += moveAmount;
-    leftMargin += moveAmount;
-    leftMargin += moveAmount;
-    leftMargin += moveAmount;
-    boxes[3].style.marginLeft = leftMargin + "px";
+    leftMargin3 += moveAmount;
+    leftMargin3 += moveAmount;
+    leftMargin3 += moveAmount;
+    leftMargin3 += moveAmount;
+    boxes[3].style.marginLeft = leftMargin3 + "px";
 }
 
 function box4Clicked() {
